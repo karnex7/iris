@@ -1,0 +1,162 @@
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Themundayfreeversion-Regular.ttf);
+}
+
+@font-face{
+    font-family: font2;
+    src: url(../fonts/script_font.otf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    height: auto;
+    background-color: #f5f0ea;
+}
+
+.main .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.main .header .logo a{
+    color: #555351;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: font2;
+    font-size: 60px;
+    letter-spacing: 3px;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+.main .header .logo a:hover{
+    color: #000;
+    font-size: 65px;
+}
+
+.main .header .main-menu .links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 10px;
+}
+
+.main .header .main-menu .links li .link-item{
+    width: max-content;
+    position: relative;
+    margin: 100px auto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a5a09a;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px 25px 5px 25px;
+    transition:  color 0.3s  ease-in-out;
+}
+
+.main .header .main-menu .links li .link-item:hover{
+    color: black;
+}
+
+.main .header .main-menu .links li .link-item::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #491a67;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+
+.main .header .main-menu .links li .link-item:hover::after{
+    transform: scaleX(1);
+}
+
+.main .header .main-menu .links li .prijava-btn{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a5a09a;
+    text-transform: uppercase;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #491a67;
+    color: #fff;
+    transition: border 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.main .header .main-menu .links li .prijava-btn:hover{
+    border: 1px solid #491a67;
+    color: #491a67;
+    background-color: transparent;
+}
+
+.main .hero{
+    height: 800px;
+}
+
+.main .hero .iris-content{
+    display: flex;
+    height: 100%;
+}
+
+.main .hero .iris{
+    width: 45%;
+    margin-top: 160px;
+}
+
+.main .hero .iris-img{
+    background-image: url(../images/iris-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1050px;
+    width: 55%;
+}
+
+.main .hero .iris h1{
+    color: #491a67;
+    text-transform: capitalize;
+    font-size: 80px;
+    font-family: font1;
+}
+
+.main .hero .iris p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #a5a09a;
+}
+
+.main .hero .iris a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a5a09a;
+    text-transform: uppercase;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #491a67;
+    color: #fff;
+    transition: border 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.main .hero .iris a:hover{
+    border: 1px solid #491a67;
+    color: #491a67;
+    background-color: transparent;
+}

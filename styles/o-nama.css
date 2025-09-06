@@ -1,0 +1,130 @@
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Themundayfreeversion-Regular.ttf);
+}
+
+@font-face{
+    font-family: font2;
+    src: url(../fonts/script_font.otf);
+}
+
+.about-us{
+    height: auto;
+    background-color: #f5f0ea;
+}
+
+.about-us .about-heading h1{
+    text-align: center;
+    color: #491a67;
+    text-transform: uppercase;
+    font-family: font1;
+    font-size: 65px;
+    padding: 25px 0px 7px 0px;
+}
+
+.about-us .about-content{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-us .about-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us .about-content .about-video{
+    position: relative;
+}
+
+.about-us .about-content .about-video video{
+    width: 650px;
+    object-fit: cover;
+    border: 24px solid #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-us .about-content .about-video h3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    background-color: #fff;
+    width: 100%;
+    padding: 16px 32px;
+    text-align: center;
+    text-transform: capitalize;
+    mix-blend-mode: screen;
+}
+
+.about-us .about-content .zasto-izabrati-nas{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.about-us .about-content .zasto-izabrati-nas h1{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.about-us .about-content .zasto-izabrati-nas p{
+    color: #a5a09a;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-us .about-content .zasto-izabrati-nas a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a5a09a;
+    text-transform: uppercase;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #491a67;
+    color: #fff;
+    transition: border 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-us .about-content .zasto-izabrati-nas a:hover{
+    border: 1px solid #491a67;
+    color: #491a67;
+    background-color: transparent;
+}
+
+.about-us .about-cards{
+    background-color: #f5f0ea;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-us .about-cards .cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 32px;
+    justify-content: center;
+}
+
+.about-us .about-cards .cards-container .about-item{
+    width: 300px;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.about-us .about-cards .cards-container .about-item h3{
+    font-size: 26px;
+}
+
+.about-us .about-cards .cards-container .about-item h5{
+    font-size: 18px;
+    color: #a5a09a;
+}

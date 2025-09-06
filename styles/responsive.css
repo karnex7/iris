@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1399px){
+    .main .hero .iris{
+        margin-top: 120px;
+    }
+
+    .main .hero .iris h1{
+        font-size: 89px;
+    }
+
+    .main .hero .iris-img{
+        background-size: 900px;
+        background-position-y: 70px;
+    }
+    
+    .about-us .about-content .about-video{
+        top: 25px;
+    }
+
+    .about-us .about-content .about-video h3{
+        top: 46%;
+        transform: translateY(-46%);
+    }
+
+    .about-us .about-content .zasto-izabrati-nas{
+        margin-top: 10px;
+    }
+}
